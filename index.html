@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food Menu</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Food Menu</h1>
+    </header>
+    <div class="container">
+      <div class="search-container">
+        <input type="text" id="search-input" placeholder="Search meals..." />
+        <button onclick="searchMeals()" class="search-btn">Search</button>
+      </div>
+      <div class="menu-container" id="menu"></div>
+      <div class="order-form" id="order-form">
+        <h2>Order Form</h2>
+        <div id="order-list" class="order-list"></div>
+        <div class="order-summary"></div>
+        <button onclick="clearOrder()" class="clear-btn">Clear Order</button>
+        <button onclick="generateBill()" class="generate-bill-btn">
+          Generate Bill
+        </button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

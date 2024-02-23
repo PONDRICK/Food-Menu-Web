@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.bill {
+  max-width: 600px;
+  margin: 20px auto;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.bill-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.bill-details {
+  margin-bottom: 20px;
+}
+
+.bill-details h2 {
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}
+
+.bill-details ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.bill-details ul li {
+  margin-bottom: 5px;
+}
+
+.total {
+  text-align: right;
+  font-size: 18px;
+  font-weight: bold;
+}
